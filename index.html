@@ -55,7 +55,7 @@
             zoomControl:true, maxZoom:20, minZoom:1
         })
         var hash = new L.Hash(map);
-		map.attributionControl.setPrefix('<b>An interactive map of bike lanes & trails in the La Crosse, WI area.</b><br><b><a title="or just say hi! email mkehist@gmail.com" href="mailto:mkehist@gmail.com">REPORT A PROBLEM</a> &middot; <a href="https://github.com/mappingmilwaukee/LAX-bike-map" target="_blank">GitHub repo</a> &middot; 2021-12-07');
+		map.attributionControl.setPrefix('<b>An interactive bike map for the La Crosse, WI area,</b><br><b>including street bike lanes and paved multi-use trails.</b><br><b><a title="or just say hi! email mkehist@gmail.com" href="mailto:mkehist@gmail.com">REPORT A PROBLEM</a> &middot; <a href="https://github.com/mappingmilwaukee/LAX-bike-map" target="_blank">GitHub repo</a> &middot; 2021-12-07');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         var measureControl = new L.Control.Measure({
             position: 'topleft',
